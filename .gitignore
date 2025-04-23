@@ -1,0 +1,105 @@
+#
+# Gitignore: Specifies intentionally untracked files to ignore
+#
+# References:
+# 1) https://git-scm.com/docs/gitignore
+# 2) https://github.com/github/gitignore
+#
+# Feel free to modify this file as you see fit.
+
+
+/atlas-attach-content
+
+# General
+*.zip
+*.bzip
+*.tar.gz
+*.rar
+*.tar
+*.gz
+*.gzip
+*.tgz
+*.bak
+
+# SVN
+.svn/
+
+# Java
+*.jar
+*.war
+*.ear
+*.nar
+*.class
+*.log
+
+# Maven
+target/
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Jetbrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.swp
+*~.nib
+local.properties
+.settings/
+/.settings
+.loadpath
+.externalToolBuilders/
+*.launch
+.apt_generated/
+.apt_generated_test/
+.autotools
+.factorypath
+.checkstyle
+.classpath
+.j2ee
+.springBeans
+/tomcat
+.project
+
+# App specific
+/atlas-cognos
+
+
+# Xcode
+xcuserdata/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Node
+node_modules/
+.npm
+
+# Objective C
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.hmap
+/aescrypt.exe
